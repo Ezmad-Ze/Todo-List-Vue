@@ -17,14 +17,15 @@ import { ref } from 'vue'
 import type { Ref } from 'vue'
 import type { Todo } from '../model'
 
-
 const todo: Ref<string> = ref('')
 
-const emit: (event: "add-todos", ...args: any[]) => void = defineEmits(['add-todos'])
-const handleSubmit = ():void => {
-  const data:Todo = { id: Date.now(), todo: todo.value, value: 'Active' }
-  emit('add-todos', data)
+const emit: (event: 'add-todos', ...args: any[]) => void = defineEmits(['add-todos'])
+const handleSubmit = (): void => {
+  let data: Todo
+  if (todo.value !== '') {
+    data = { id: Date.now(), todo: todo.value, value: 'Active' }
+    emit('add-todos', data)
+  }
   todo.value = ''
 }
-
 </script>
