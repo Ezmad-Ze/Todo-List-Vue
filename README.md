@@ -5,7 +5,7 @@
 ![Todo Light](screenshots/ToDo.png)
 <div align="center">
   <h3>
-    <a href="https://frabjous-mousse-67881d.netlify.app/" color="white">
+    <a href="https://willowy-kitten-900b45.netlify.app/" color="white">
       Live
     </a>
     <span> | </span>
