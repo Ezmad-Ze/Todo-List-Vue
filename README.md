@@ -1,46 +1,51 @@
-# vue-todo
+# <h1 align="center">**To Do List Using Vue**</h1>
 
-This template should help get you started developing with Vue 3 in Vite.
+<p align="center"><code>Vue</code>, <code>Typescript</code>, <code>Tailwind</code>, <code>Vite</code></p>
 
-## Recommended IDE Setup
+![Todo Light](screenshots/ToDo.png)
+<div align="center">
+  <h3>
+    <a href="https://frabjous-mousse-67881d.netlify.app/" color="white">
+      Live
+    </a>
+    <span> | </span>
+    <a href="https://github.com/Ezmad-Ze/Todo-List-Vue">
+      Solution
+    </a>
+  </h3>
+</div>
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+<br/>
+<br/>
 
-## Type Support for `.vue` Imports in TS
+## About The Project
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+Users should be able to:
+- View the optimal layout for the app depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Add new todos to the list
+- Mark todos as complete
+- Delete todos from the list
+- Filter by all/active/complete todos
+- Toggle light and dark mode
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
 
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+## Built with
 
-## Customize configuration
+- Semantic HTML5 markup
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- [Tailwind](https://tailwindcss.com/)
+- [Vue](https://vuejs.org/guide/introduction.html) - JS library
+- [Typescript](https://www.typescriptlang.org/)
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## Useful Rescources
 
-## Project Setup
+- [Vue Docs](https://vuejs.org/guide/introduction.html)
+- [Vue Tutorial](https://www.youtube.com/@LearnVue)
 
-```sh
-npm install
-```
+## Author
 
-### Compile and Hot-Reload for Development
+- Website - [Ezmad_Ze](https://ezmad.pages.dev/)
 
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```

@@ -6,5 +6,4 @@
 
 <script lang="ts" setup>
 import HomeView from './views/HomeView.vue'
-//toogle theme
 </script>
